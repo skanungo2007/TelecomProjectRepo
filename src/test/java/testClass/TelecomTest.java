@@ -113,7 +113,7 @@ public class TelecomTest extends BaseTelecomClass {
 	@Test(priority=4)
 	public void addPlanCustomer() throws InterruptedException {
 		
-		test = reports.createTest("Add Plan For Customer");
+		test = reports.createTest("Add Tariff Plan For Customer");
 		
 		HomePage home = new HomePage(driver);
 		
