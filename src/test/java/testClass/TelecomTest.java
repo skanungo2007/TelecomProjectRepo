@@ -132,7 +132,7 @@ public class TelecomTest extends BaseTelecomClass {
 	@Test(priority=5)
 	public void payCustomerBill() throws InterruptedException {
 		
-		test = reports.createTest("Pay Bill");
+		test = reports.createTest("Pay Customer Bill");
 		
 		
 		HomePage home = new HomePage(driver);
