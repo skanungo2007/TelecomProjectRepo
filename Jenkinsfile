@@ -1,5 +1,6 @@
 pipeline {
 
+
 	agent {
 		node {
 			label 'master'
@@ -9,6 +10,7 @@ pipeline {
 	options {
 		timestamps()
 	}
+	
 	
 	stages {
 	
@@ -26,6 +28,7 @@ pipeline {
 		}
 	
 	}
+	
 	
 	post {
 		
