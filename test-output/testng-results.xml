@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38128" started-at="2022-03-16T20:31:10Z" finished-at="2022-03-16T20:31:48Z">
+  <suite name="Default suite" duration-ms="54942" started-at="2022-03-18T15:37:25Z" finished-at="2022-03-18T15:38:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="38128" started-at="2022-03-16T20:31:10Z" finished-at="2022-03-16T20:31:48Z">
+    <test name="Default test" duration-ms="54942" started-at="2022-03-18T15:37:25Z" finished-at="2022-03-18T15:38:20Z">
       <class name="testClass.TelecomTest">
-        <test-method status="PASS" signature="setupReport()[pri:0, instance:testClass.TelecomTest@548e7350]" name="setupReport" is-config="true" duration-ms="239" started-at="2022-03-16T20:31:10Z" finished-at="2022-03-16T20:31:10Z">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:testClass.TelecomTest@548e7350]" name="setupReport" is-config="true" duration-ms="232" started-at="2022-03-18T15:37:25Z" finished-at="2022-03-18T15:37:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testClass.TelecomTest@548e7350]" name="setup" is-config="true" duration-ms="6628" started-at="2022-03-16T20:31:10Z" finished-at="2022-03-16T20:31:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testClass.TelecomTest@548e7350]" name="setup" is-config="true" duration-ms="9993" started-at="2022-03-18T15:37:25Z" finished-at="2022-03-18T15:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:testClass.TelecomTest@548e7350]" name="verifyHomePage" duration-ms="98" started-at="2022-03-16T20:31:16Z" finished-at="2022-03-16T20:31:17Z">
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:testClass.TelecomTest@548e7350]" name="verifyHomePage" duration-ms="88" started-at="2022-03-18T15:37:35Z" finished-at="2022-03-18T15:37:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="11" started-at="2022-03-16T20:31:17Z" finished-at="2022-03-16T20:31:17Z">
+        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="12" started-at="2022-03-18T15:37:35Z" finished-at="2022-03-18T15:37:35Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method status="PASS" signature="addCustomerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testClass.TelecomTest@548e7350]" name="addCustomerDetails" duration-ms="4979" started-at="2022-03-16T20:31:17Z" data-provider="customerData" finished-at="2022-03-16T20:31:22Z">
+        <test-method status="PASS" signature="addCustomerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testClass.TelecomTest@548e7350]" name="addCustomerDetails" duration-ms="6667" started-at="2022-03-18T15:37:36Z" data-provider="customerData" finished-at="2022-03-18T15:37:42Z">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomerDetails -->
-        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="1" started-at="2022-03-16T20:31:22Z" finished-at="2022-03-16T20:31:22Z">
+        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="1" started-at="2022-03-18T15:37:42Z" finished-at="2022-03-18T15:37:42Z">
           <params>
             <param index="0">
               <value>
@@ -72,22 +72,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method status="PASS" signature="getCustomerDetails()[pri:2, instance:testClass.TelecomTest@548e7350]" name="getCustomerDetails" duration-ms="1521" started-at="2022-03-16T20:31:22Z" finished-at="2022-03-16T20:31:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getCustomerDetails -->
-        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="1" started-at="2022-03-16T20:31:24Z" finished-at="2022-03-16T20:31:24Z">
+        <test-method status="PASS" signature="addCustomerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testClass.TelecomTest@548e7350]" name="addCustomerDetails" duration-ms="6416" started-at="2022-03-18T15:37:42Z" data-provider="customerData" finished-at="2022-03-18T15:37:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getCustomerDetails status=SUCCESS method=TelecomTest.getCustomerDetails()[pri:2, instance:testClass.TelecomTest@548e7350] output={null}]]]>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chappel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tch@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2255401445]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerDetails -->
+        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="1" started-at="2022-03-18T15:37:49Z" finished-at="2022-03-18T15:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCustomerDetails status=SUCCESS method=TelecomTest.addCustomerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testClass.TelecomTest@548e7350] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method status="PASS" signature="AddTariff(double, double, double, double, double, double, double)[pri:3, instance:testClass.TelecomTest@548e7350]" name="AddTariff" duration-ms="6524" started-at="2022-03-16T20:31:24Z" data-provider="tariff" finished-at="2022-03-16T20:31:30Z">
+        <test-method status="PASS" signature="AddTariff(double, double, double, double, double, double, double)[pri:3, instance:testClass.TelecomTest@548e7350]" name="AddTariff" duration-ms="6102" started-at="2022-03-18T15:37:49Z" data-provider="tariff" finished-at="2022-03-18T15:37:55Z">
           <params>
             <param index="0">
               <value>
@@ -128,7 +155,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddTariff -->
-        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="1" started-at="2022-03-16T20:31:30Z" finished-at="2022-03-16T20:31:30Z">
+        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="1" started-at="2022-03-18T15:37:55Z" finished-at="2022-03-18T15:37:55Z">
           <params>
             <param index="0">
               <value>
@@ -139,11 +166,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method status="PASS" signature="addPlanCustomer()[pri:4, instance:testClass.TelecomTest@548e7350]" name="addPlanCustomer" duration-ms="10550" started-at="2022-03-16T20:31:30Z" finished-at="2022-03-16T20:31:41Z">
+        <test-method status="PASS" signature="AddTariff(double, double, double, double, double, double, double)[pri:3, instance:testClass.TelecomTest@548e7350]" name="AddTariff" duration-ms="6831" started-at="2022-03-18T15:37:55Z" data-provider="tariff" finished-at="2022-03-18T15:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[599.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[300.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTariff -->
+        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="1" started-at="2022-03-18T15:38:02Z" finished-at="2022-03-18T15:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddTariff status=SUCCESS method=TelecomTest.AddTariff(double, double, double, double, double, double, double)[pri:3, instance:testClass.TelecomTest@548e7350] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method status="PASS" signature="addPlanCustomer()[pri:4, instance:testClass.TelecomTest@548e7350]" name="addPlanCustomer" duration-ms="10806" started-at="2022-03-18T15:38:02Z" finished-at="2022-03-18T15:38:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addPlanCustomer -->
-        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="0" started-at="2022-03-16T20:31:41Z" finished-at="2022-03-16T20:31:41Z">
+        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="0" started-at="2022-03-18T15:38:13Z" finished-at="2022-03-18T15:38:13Z">
           <params>
             <param index="0">
               <value>
@@ -154,11 +233,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method status="PASS" signature="payCustomerBill()[pri:5, instance:testClass.TelecomTest@548e7350]" name="payCustomerBill" duration-ms="3736" started-at="2022-03-16T20:31:41Z" finished-at="2022-03-16T20:31:45Z">
+        <test-method status="PASS" signature="payCustomerBill()[pri:5, instance:testClass.TelecomTest@548e7350]" name="payCustomerBill" duration-ms="3838" started-at="2022-03-18T15:38:13Z" finished-at="2022-03-18T15:38:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payCustomerBill -->
-        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="0" started-at="2022-03-16T20:31:45Z" finished-at="2022-03-16T20:31:45Z">
+        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:testClass.TelecomTest@548e7350]" name="getReport" is-config="true" duration-ms="1" started-at="2022-03-18T15:38:17Z" finished-at="2022-03-18T15:38:17Z">
           <params>
             <param index="0">
               <value>
@@ -169,11 +248,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClass.TelecomTest@548e7350]" name="closeBrowser" is-config="true" duration-ms="3232" started-at="2022-03-16T20:31:45Z" finished-at="2022-03-16T20:31:48Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClass.TelecomTest@548e7350]" name="closeBrowser" is-config="true" duration-ms="3234" started-at="2022-03-18T15:38:17Z" finished-at="2022-03-18T15:38:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testClass.TelecomTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
