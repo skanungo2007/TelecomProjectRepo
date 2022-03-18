@@ -70,9 +70,18 @@ public class TelecomTest extends BaseTelecomClass {
 		
 		customer.submitCustDetails();
 		
+		
+		FetchId custID = new FetchId(driver);
+		
+		customerId = custID.getId();
+		
+		System.out.println("ID: " + customerId);
+		
+		custID.returnToHome();
+		
 	}
 	
-	
+	/*
 	@Test(priority=2)
 	public void getCustomerDetails() throws InterruptedException {
 		
@@ -88,7 +97,7 @@ public class TelecomTest extends BaseTelecomClass {
 		
 	}
 	
-	
+	*/
 	
 	@Test(priority=3, dataProvider="tariff", dataProviderClass=ReadExcel.class)
 	public void AddTariff(@Optional() double rental, double localMin, double intMin, double smsPack, double localCharge, double intCharge, double smsCharge) throws InterruptedException {

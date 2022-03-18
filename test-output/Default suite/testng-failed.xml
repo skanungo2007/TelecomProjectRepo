@@ -5,16 +5,11 @@
     <classes>
       <class name="testClass.TelecomTest">
         <methods>
-          <include name="AddTariff"/>
-          <include name="payCustomerBill"/>
           <include name="setup"/>
-          <include name="getCustomerDetails"/>
-          <include name="verifyHomePage"/>
           <include name="getReport"/>
           <include name="setupReport"/>
-          <include name="addCustomerDetails"/>
+          <include name="addCustomerDetails" invocation-numbers="1"/>
           <include name="closeBrowser"/>
-          <include name="addPlanCustomer"/>
         </methods>
       </class> <!-- testClass.TelecomTest -->
     </classes>
